@@ -88,7 +88,7 @@ tools_list=[
 vector_store = client.beta.vector_stores.create(name="Información_vector1")
 
 # Leemos los archivos para subir a OpenAI
-file_paths = ["/Project_Chatbot_OpenAI/chatbot-aynitech/src/AT_2021.pdf",]
+file_paths = ["AT_2021.pdf",]
 file_streams = [open(path, "rb") for path in file_paths]
 
 file_batch = client.beta.vector_stores.file_batches.upload_and_poll(
