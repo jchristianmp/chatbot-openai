@@ -123,7 +123,7 @@ assistente = client.beta.assistants.create(
     3. Contacto con el Asesor de Ventas:
 
       - Si 'registrar_datos_gsheets' devuelve true, envía un mensaje al asesor de ventas al número de WhatsApp utilizando la función 'enviar_whatsapp_asesor'.
-      - El mensaje debe mencionar que hay un posible comprador interesado y que debe ser contactado urgentemente. Incluye el nombre del interesado y su correo electrónico en el mensaje.
+      - El mensaje debe mencionar que hay un potencial cliente interesado y que debe ser contactado urgentemente. Incluye el nombre del interesado y su correo electrónico en el mensaje.
 
     4. Confirmación al Interesado:
 
